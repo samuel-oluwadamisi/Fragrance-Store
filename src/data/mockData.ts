@@ -28,7 +28,7 @@ function perfume(
 export const allPerfumes: CatalogPerfume[] = [
   perfume("Lattafa Oud 100ml", "Lattafa", 45000, ["best-sellers", "men"], "/images/latafa-oud-100.jpeg"),
   perfume("Lattafa Yara 100ml", "Lattafa", 42000, ["best-sellers", "women"], "/images/latafa-yara-100.jpeg"),
-  perfume("Lattafa Khamrah 100ml", "Lattafa", 58000, ["best-sellers", "unisex"], "/images/latafa-khamrah-100.jpeg"),
+  perfume("Lattafa Khamrah 100ml", "Lattafa", 58000, ["best-sellers", "unisex"], "/images/latafa-Khamrah-100.jpeg"),
   perfume("Armaf Club de Nuit Intense Man 105ml", "Armaf", 52000, ["best-sellers", "men"], "/images/armaf-club-de-nuit-100.jpeg" ),
 
   perfume("Lattafa Asad 100", "Lattafa", 38000, ["new-arrivals", "men"], "/images/latafa-asad-100.jpeg"),
@@ -39,7 +39,7 @@ export const allPerfumes: CatalogPerfume[] = [
   perfume("Lattafa Oud 50ml", "Lattafa", 28000, ["best-sellers", "men"], "/images/latafa-oud-100.jpeg"),
   perfume("Lattafa Out 30ml", "Lattafa", 18000, ["best-sellers", "men"], "/images/latafa-out-100.jpeg"),
   perfume("Lattafa Yara 30ml", "Lattafa", 19000, ["women"], "/images/latafa-yara-100.jpeg"),
-  perfume("Lattafa Khamrah 30ml", "Lattafa", 20000, ["unisex"], "/images/latafa-khamrah-100.jpeg"),
+  perfume("Lattafa Khamrah 30ml", "Lattafa", 20000, ["unisex"], "/images/latafa-Khamrah-100.jpeg"),
 
   perfume("Armaf Club de Nuit Woman 105ml", "Armaf", 55000, ["women"], "/images/armaf-club-de-nuit-woman-100.jpeg"),
   perfume("Lancome La Vie Est Belle 100", "Lancome", 170000, ["best-sellers", "women"], "/images/lancome-la-vie-est-belle-100.jpeg"),
