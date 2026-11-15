@@ -16,7 +16,7 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2">
           <PerfumeBottleIcon className="h-[22px] w-[22px] text-black" />
-          <span className="font-['Outfit',sans-serif] text-lg font-semibold leading-none tracking-tight text-[#151c27]">
+          <span className="font-['Outfit',sans-serif] text-lg font-semibold leading-none tracking-tight text-[#6B2737]">
             Fragrance Store
           </span>
         </Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
             <Link
               key={link.href}
               href={link.href}
-              className="whitespace-nowrap font-['Outfit',sans-serif] text-sm font-medium text-[#45464c] transition-colors hover:text-black xl:text-[15px]"
+              className="whitespace-nowrap font-['Outfit',sans-serif] text-sm font-medium text-[#6B2737] transition-colors hover:text-black xl:text-[15px]"
             >
               {link.label}
             </Link>
@@ -39,20 +39,20 @@ export default function Navbar() {
           <Link
             href="/search"
             aria-label="Search"
-            className="flex h-11 w-11 items-center justify-center rounded-full text-[#151c27] transition-colors hover:text-black"
+            className="flex h-11 w-11 items-center justify-center rounded-full text-[#6B2737] transition-colors hover:text-black"
           >
             <SearchIcon className="h-5 w-5" />
           </Link>
 
           <CartLink />
 
-          <a
+          <Link
             href="#"
             aria-label="Account"
-            className="ml-1 flex h-8 w-8 items-center justify-center rounded-full bg-black text-white"
+            className="ml-1 flex h-8 w-8 items-center justify-center rounded-full text-[#6B2737]"
           >
             <UserIcon className="h-[18px] w-[18px]" />
-          </a>
+          </Link>
         </div>
       </div>
     </header>

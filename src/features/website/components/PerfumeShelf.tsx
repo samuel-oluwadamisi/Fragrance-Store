@@ -22,7 +22,7 @@ export default function PerfumeShelf({ id, title, subtitle, perfumes }: PerfumeS
         </div>
         <Link
           href={buildSearchUrl({ category: id })}
-          className="inline-flex min-h-11 shrink-0 items-center justify-center gap-0.5 whitespace-nowrap rounded-md px-2 font-['Outfit',sans-serif] text-[13px] font-medium text-[#45464c] transition-colors hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#004085] md:min-h-0 md:px-0 md:text-[15px]"
+          className="inline-flex min-h-11 shrink-0 items-center justify-center gap-0.5 whitespace-nowrap rounded-md px-2 font-['Outfit',sans-serif] text-[13px] font-medium text-[#45464c] transition-colors hover:text-black focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#6B2737] md:min-h-0 md:px-0 md:text-[15px]"
         >
           See all
           <ChevronRightIcon className="h-4 w-4" />

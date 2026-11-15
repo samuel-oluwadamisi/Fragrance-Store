@@ -24,7 +24,7 @@ const shelves = [
 export default function LandingPage() {
   return (
     <div className="mx-auto w-full max-w-[1360px] md:px-8 lg:px-16">
-      <h1 className="sr-only">Demo Perfumery</h1>
+      <h1 className="sr-only">Fragrance Store</h1>
 
       {/* Search bar: suggestions while typing, Enter or Search opens /search?q=... */}
       <section className="px-4 pb-1 pt-2 md:px-0 md:pb-2 md:pt-6">

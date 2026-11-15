@@ -54,7 +54,7 @@ export default function HeroSlideshow({ slides }: HeroSlideshowProps) {
         if (Math.abs(distance) > SWIPE_PX) go(index + (distance < 0 ? 1 : -1));
       }}
     >
-      <div className="relative overflow-hidden rounded-2xl border border-slate-100/80 bg-gradient-to-br from-blue-50/80 via-white to-slate-50 shadow-sm">
+      <div className="relative overflow-hidden rounded-2xl border border-slate-100/80 bg-gradient-to-br from-blue-50/80 via-white to-slate-50">
         {/* All slides share one grid cell, so the hero is as tall as the tallest slide and never jumps */}
         <div className="grid" aria-live={paused ? "polite" : "off"}>
           {slides.map((perfume, i) => {
@@ -78,12 +78,12 @@ export default function HeroSlideshow({ slides }: HeroSlideshowProps) {
                   <h2 className="pt-1 font-['Outfit',sans-serif] text-2xl font-bold tracking-tight text-[#151c27] md:text-4xl lg:text-5xl">
                     {perfume.name}
                   </h2>
-                  <p className="font-['Outfit',sans-serif] text-xl font-semibold text-[#004098] md:text-2xl">
+                  <p className="font-['Outfit',sans-serif] text-xl font-semibold text-[#6B2737] md:text-2xl">
                     {perfume.price}
                   </p>
                   <Link
                     href={`/perfumes/${toSlug(perfume.name)}`}
-                    className="mt-3 inline-flex items-center gap-2 rounded-xl bg-[#004098] px-5 py-2.5 font-['Outfit',sans-serif] text-[13px] font-medium text-white shadow-sm transition-all hover:opacity-95 active:scale-95 md:px-7 md:py-3 md:text-[15px]"
+                    className="mt-3 inline-flex items-center gap-2 rounded-xl bg-[#6B2737] px-5 py-2.5 font-['Outfit',sans-serif] text-[13px] font-medium text-white shadow-sm transition-all hover:opacity-95 active:scale-95 md:px-7 md:py-3 md:text-[15px]"
                   >
                     Shop now
                     <ChevronRightIcon className="h-[18px] w-[18px]" />
@@ -124,7 +124,7 @@ export default function HeroSlideshow({ slides }: HeroSlideshowProps) {
               >
                 <span
                   className={`h-2 rounded-full transition-all ${
-                    i === index ? "w-6 bg-[#004098]" : "w-2 bg-[#004098]/25"
+                    i === index ? "w-6 bg-[#6B2737]" : "w-2 bg-[#004098]/25"
                   }`}
                 />
               </button>

@@ -29,7 +29,7 @@ function FilterSelect({ id, label, value, options, onChange }: FilterSelectProps
           id={id}
           defaultValue={value}
           onChange={(e) => onChange(e.target.value)}
-          className="h-12 w-full cursor-pointer appearance-none rounded-xl border-2 border-[#c6c6cd] bg-white pl-3 pr-9 font-['Outfit',sans-serif] text-sm font-medium text-[#151c27] shadow-sm outline-none transition-colors hover:border-[#004085] focus:border-[#004085] md:pl-4 md:pr-11 md:text-base"
+          className="h-12 w-full cursor-pointer appearance-none rounded-xl border-2 border-[#c6c6cd] bg-white pl-3 pr-9 font-['Outfit',sans-serif] text-sm font-medium text-[#151c27] shadow-sm outline-none transition-colors hover:border-[#6B2737] focus:border-[#6B2737] md:pl-4 md:pr-11 md:text-base"
         >
           {options.map((option) => (
             <option key={option.value} value={option.value}>
@@ -37,7 +37,7 @@ function FilterSelect({ id, label, value, options, onChange }: FilterSelectProps
             </option>
           ))}
         </select>
-        <ChevronDownIcon className="pointer-events-none absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 text-[#004085] md:right-4" />
+        <ChevronDownIcon className="pointer-events-none absolute right-3 top-1/2 h-5 w-5 -translate-y-1/2 text-[#6B2737] md:right-4" />
       </div>
     </div>
   );

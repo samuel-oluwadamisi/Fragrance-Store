@@ -59,9 +59,9 @@ export default function SearchBox({
           </label>
         )}
 
-        <div className="flex h-12 items-center overflow-hidden rounded-xl border-2 border-[#004085] bg-white shadow-sm">
+        <div className="flex h-12 items-center overflow-hidden rounded-xl border-2 border-[#6B2737] bg-white shadow-sm">
           <SearchIcon
-            className="ml-3.5 mr-2 h-5 w-5 shrink-0 text-[#004085]"
+            className="ml-3.5 mr-2 h-5 w-5 shrink-0 text-[#6B2737]"
             strokeWidth={2.2}
           />
           <input
@@ -99,7 +99,7 @@ export default function SearchBox({
           )}
           <button
             type="submit"
-            className="h-full shrink-0 bg-[#004085] px-5 text-base font-semibold text-white transition-colors hover:bg-[#082b54] active:bg-[#072447] md:px-8"
+            className="h-full shrink-0 bg-[#6B2737] px-5 text-base font-semibold text-white transition-colors hover:bg-[#082b54] active:bg-[#072447] md:px-8"
           >
             Search
           </button>
@@ -137,7 +137,7 @@ export default function SearchBox({
               <Link
                 href={buildSearchUrl({ q: text, category, price })}
                 onClick={() => setOpen(false)}
-                className="block px-4 py-2.5 font-['Outfit',sans-serif] text-sm font-medium text-[#004085] transition-colors hover:bg-[#f0f3ff]"
+                className="block px-4 py-2.5 font-['Outfit',sans-serif] text-sm font-medium text-[#6B2737] transition-colors hover:bg-[#f0f3ff]"
               >
                 See all {matches.length} results
               </Link>
